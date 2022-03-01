@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .top {
+  padding: 10px 0;
+}
+
+.search {
+  cursor: pointer;
+}
+
+.search span {
+  color: grey;
+}
+
+.search i {
+  color: grey;
+}
+
+.lang {
+  color: grey;
+}
+
+.phone {
+  color: grey;
+}
+
+#sectionsrc {
+  background-color: white;
+  display: none;
+  -webkit-transition: 4s;
+  transition: 4s;
+}
+
+#sectionsrc input {
+  border: none;
+  background-color: transparent;
+  width: 80%;
+  padding: 3rem 30px;
+  outline: none;
+  font-size: 40px;
+}
+
+#sectionsrc span {
+  font-size: 40px;
+  color: grey;
+  padding: 0 3rem;
+}
+
+.angle {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+/*# sourceMappingURL=style.css.map */

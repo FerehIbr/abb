@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header .top {
+  padding: 10px 0;
+}
+.search {
+  cursor: pointer;
+
+  span {
+    color: grey;
+  }
+  i {
+    color: grey;
+  }
+}
+.lang {
+  color: grey;
+}
+.phone {
+  color: grey;
+}
+#sectionsrc {
+  background-color: white;
+  display: none;
+  transition: 4s;
+  input {
+    border: none;
+    background-color: transparent;
+    width: 80%;
+    padding: 3rem 30px;
+    outline: none;
+    font-size: 40px;
+  }
+  span {
+    font-size: 40px;
+    color: grey;
+    padding: 0 3rem;
+  }
+}
+.angle {
+  transform: rotate(180deg);
+}
+
+// .active {
+//   opacity: 1 !important;
+// }

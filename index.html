@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.scss" />
+  </head>
+  <body>
+    <header style="background-color: #f6f7f8">
+      <div class="top">
+        <div class="all">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-9">
+                <a href="">Haqqımızda</a>
+                <a href="">Tender Elanları</a>
+                <a href="">Tariflər</a>
+                <a href="">Xəbərlər</a>
+                <a href="">Xidmət Şəbəkəsi</a>
+                <a href="">Təklif və Şikayətlər</a>
+                <a href="">Onlayn Xidmətlər</a>
+                <a class="kar" href="">Karyera Portalı</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="left mx-4">
+        <a href="">Haqqimizda</a>
+        <a href="">Tender elanlari</a>
+        <a href="">Tarifler</a>
+        <a href="">Xeberler</a>
+        <a href="">Xidmet shebekesi</a>
+        <a href="">Teklif ve shikayetler</a>
+      </div> -->
+
+      <div class="container">
+        <div class="col-lg-12 d-flex justify-content-end">
+          <div onclick="Search()" class="search">
+            <i class="fas fa-search"></i>
+            <span class="ps-3">Axtaris</span>
+          </div>
+
+          <div onclick="Lang()" class="lang mx-3">
+            <span>AZ</span>
+            <i id="angle" class="fas fa-angle-down"></i>
+          </div>
+          <div class="phone">
+            <i class="fa-solid fa-phone"></i>
+            <span>937</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="sectionsrc">
+      <input type="text" placeholder="Sizə necə kömək edə bilərik?" />
+      <span style="cursor: pointer">X</span>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
